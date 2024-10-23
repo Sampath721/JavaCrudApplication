@@ -31,7 +31,7 @@ public class HomeController {
 	private userservice service;
 	@GetMapping("/")
 	public String Greet() {
-		return "Hello SpringMVC";
+		return "Hello SpringMVC App";
 	}
 	
 	@GetMapping("/about")
